@@ -1,1 +1,1 @@
-# laravel-api-vuetify
+# laravel-api-vue
