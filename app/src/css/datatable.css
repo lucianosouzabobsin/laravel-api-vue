@@ -1,0 +1,72 @@
+@media (max-height:800px){
+    .my-header-table {
+        height: 500px;
+    }
+}
+
+@media (min-height:800px){
+    .my-header-table {
+        height: 760px;
+    }
+}
+
+/** Quando esta ativado o modo light, o header e o footer ficam #b3e5fc **/
+
+.q-table__container.q-table--cell-separator.column.no-wrap/*
+*/.q-table__card.q-table--flat.q-table--bordered.q-table--no-wrap/*
+*/.my-header-table .q-table__top {
+    background-color: #81d4fa;
+}
+
+.q-table__container.q-table--cell-separator.column.no-wrap/*
+*/.q-table__card.q-table--flat.q-table--bordered.q-table--no-wrap/*
+*/.my-header-table .q-table__bottom {
+    background-color: #81d4fa;
+}
+
+.q-table__container.q-table--cell-separator.column.no-wrap/*
+*/.q-table__card.q-table--flat.q-table--bordered.q-table--no-wrap/*
+*/.my-header-table thead tr:first-child th {
+    background-color: #81d4fa;
+}
+
+/** Quando esta ativado o modo light, a tabela fica clara **/
+
+.q-table__container.q-table--cell-separator.column.no-wrap/*
+*/.q-table__card.q-table--flat.q-table--bordered.q-table--no-wrap/*
+*/.my-header-table tbody tr {
+    background-color: #eeeeee;
+}
+
+/** Quando esta ativado o modo dark, o header e o footer ficam #01579b **/
+
+.q-table__container.q-table--cell-separator.column.no-wrap/*
+ */.q-table__card.q-table__card--dark.q-dark.q-table--flat/*
+ */.q-table--bordered.q-table--dark.q-table--no-wrap/*
+ */.my-header-table .q-table__top {
+    background-color: #01579b;
+}
+
+.q-table__container.q-table--cell-separator.column.no-wrap/*
+ */.q-table__card.q-table__card--dark.q-dark.q-table--flat/*
+ */.q-table--bordered.q-table--dark.q-table--no-wrap/*
+ */.my-header-table .q-table__bottom {
+    background-color: #01579b;
+}
+
+.q-table__container.q-table--cell-separator.column.no-wrap/*
+ */.q-table__card.q-table__card--dark.q-dark.q-table--flat/*
+ */.q-table--bordered.q-table--dark.q-table--no-wrap/*
+ */.my-header-table thead tr:first-child th {
+    background-color: #01579b;
+}
+
+
+/** Quando esta ativado o modo dark, a tabela fica escura**/
+
+.q-table__container.q-table--cell-separator.column.no-wrap/*
+ */.q-table__card.q-table__card--dark.q-dark.q-table--flat/*
+ */.q-table--bordered.q-table--dark.q-table--no-wrap/*
+ */.my-header-table tbody tr{
+    background-color: #263238;
+}
