@@ -79,7 +79,6 @@ export default defineComponent({
         await login(form.value)
         router.push({ name: 'dashboard' })
       } catch (error) {
-        console.log(error);
         $q.notify({color: 'negative', message: error.message, position: 'bottom', icon: 'report_problem' })
       }
     }
