@@ -15,6 +15,17 @@ const routes = [
     ]
   },
   {
+    path: '/administrator',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: '/administrator/users-groups',
+        name: 'users-groups',
+        component: () => import('pages/administrator/UsersGroups.vue')
+      },
+    ]
+  },
+  {
     path: '/playground',
     component: () => import('layouts/MainLayout.vue'),
     children: [
@@ -30,7 +41,6 @@ const routes = [
       }
     ]
   },
-
 
   // Always leave this as last one,
   // but you can also remove it

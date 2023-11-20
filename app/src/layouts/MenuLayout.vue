@@ -74,9 +74,23 @@ export default defineComponent({
       { icon: 'send',  label: 'Outbox', separator: false, children:[] },
       { icon: 'delete', label: 'Trash', separator: false, children:[] },
       { icon: 'error',  label: 'Spam', separator: true, children:[] },
-      { icon: 'settings', label: 'Settings', separator: false, children:[] },
-      { icon: 'feedback', label: 'Send Feedback', separator: false, children:[] },
-      { icon: 'help', iconColor: 'primary', label: 'Help', separator: true, children:[] },
+      { icon: 'admin_panel_settings', iconColor: 'primary', label: 'Administrador', separator: true,
+        children:[
+          {
+            icon: 'assignment_ind',
+            link: '/administrator/users-groups',
+            iconColor: 'primary',
+            label: 'Grupo de Usuários',
+            separator: false
+          },
+          {
+            icon: 'people',
+            link: '/playground/forms',
+            iconColor: 'primary',
+            label: 'Usuários',
+            separator: false
+          }
+      ]},
       { icon: 'auto_fix_high', iconColor: 'primary', label: 'Playground', separator: true,
         children:[
           {
